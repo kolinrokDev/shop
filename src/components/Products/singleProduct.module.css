@@ -1,0 +1,75 @@
+.singleProduct {
+  margin-top: 20px;
+  border-radius: 6px;
+  background: rgb(25, 25, 25);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.discrips {
+  margin-left: 20px;
+  width: 50%;
+}
+.title {
+  color: rgb(246, 246, 247);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+.price {
+  color: rgb(246, 246, 247);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text {
+  color: rgb(184, 184, 184);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.button {
+  border-radius: 6px;
+  background: rgb(108, 62, 184);
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 3 rem;
+  border: none;
+  padding: 1rem 2rem;
+  margin-bottom: 160px;
+  margin-left: 15px;
+}
+.button:hover {
+  background: rgb(47, 25, 83);
+}
+.imageList {
+  display: flex;
+}
+.imagesCurrent {
+  width: 400px;
+  height: auto;
+  background-size: 100% 100%;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-size: 100% 100%;
+}

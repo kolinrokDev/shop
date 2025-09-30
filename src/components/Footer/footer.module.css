@@ -1,0 +1,31 @@
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+  max-width: 1140px;
+  display: flex;
+  margin: 25px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rigth {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(87, 96, 103);
+}
+.rigthEl {
+  color: rgb(108, 62, 184);
+}
+.socials {
+  color: white;
+}
+.link {
+  margin: 0 5px;
+}
+.yuo {
+  fill: white;
+}

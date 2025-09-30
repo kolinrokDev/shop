@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+body {
+  background-color: rgb(33, 33, 35);
+}
+.app {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+  max-width: 1140px;
+}
+.contaner {
+  display: flex;
+}

@@ -1,0 +1,114 @@
+.cart {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: rgb(25, 25, 25);
+  padding-top: 10px;
+}
+.titleH2 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 25px;
+}
+.cartEmpty {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.item {
+  border-radius: 8px;
+  background: rgb(33, 33, 35);
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background-size: 100% 100%;
+  border-radius: 8px 8px 8px 8px;
+}
+.info {
+}
+.name {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.category {
+  color: rgb(184, 184, 184);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.price {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.minus {
+  border-radius: 6px;
+  background: rgb(108, 62, 184);
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+.quantity {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+.total {
+  color: rgb(108, 62, 184);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.button {
+  border-radius: 6px;
+  background: rgb(108, 62, 184);
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  height: 2rem;
+  padding: 0rem 2rem;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+.totalPrice {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(184, 184, 184);
+  margin-left: 25px;
+}

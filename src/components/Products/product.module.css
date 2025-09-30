@@ -1,0 +1,90 @@
+.products {
+  background-color: rgb(25, 25, 25);
+  border-radius: 6px;
+  margin-top: 20px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.item {
+  background: rgb(33, 33, 35);
+  border-radius: 8px;
+  margin: 15px 10px;
+  padding: 0px 0px 10px 0px;
+  width: 200px;
+}
+.img {
+  width: auto;
+  height: 200px;
+  background-size: 100% 100%;
+  border-radius: 8px 8px 0 0;
+}
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.wrapper {
+  margin-top: 15px;
+  padding: 3px;
+}
+.name {
+  color: rgb(184, 184, 184);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.priceItems {
+  display: flex;
+  align-items: flex-end;
+}
+.prices {
+  color: rgb(108, 62, 184);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-right: 5px;
+}
+.oldPrice {
+  color: rgb(87, 96, 103);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+.pur {
+  color: rgb(87, 96, 103);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: right;
+}

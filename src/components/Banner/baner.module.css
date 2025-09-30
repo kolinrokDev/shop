@@ -1,0 +1,74 @@
+.banner {
+  border-radius: 6px;
+  background: rgb(25, 25, 25);
+  display: flex;
+  margin-top: 20px;
+}
+.left {
+  width: 49%;
+  text-align: center;
+  padding-top: 80px;
+  position: relative;
+}
+.rigth {
+  width: 49%;
+  background-image: url("./img/snow.png");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.psmall {
+  color: rgb(108, 62, 184);
+  font-family: Montserrat;
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 85px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.pbig {
+  color: rgb(108, 62, 184);
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 300;
+  line-height: 183px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.button {
+  border-radius: 6px;
+  background: rgb(108, 62, 184);
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  width: 3 rem;
+  border: none;
+  padding: 1rem 2rem;
+  margin-bottom: 160px;
+  margin-left: 15px;
+}
+.ps {
+  position: absolute;
+  right: -50px;
+  bottom: -25px;
+}
+.boots {
+  position: absolute;
+  left: -30px;
+}
+.text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.textSpan {
+  font-weight: 700;
+  color: rgb(108, 62, 184);
+}
